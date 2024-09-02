@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Apresentação {
+    background-color: #333;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sobre {
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.serviços {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.serviços.item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.benefícios {
+    padding: 40px 20px;
+    text-align: justify;
+}
+
+.benefícios ul {
+    list-style: none;
+    padding: 0;
+}
+
+.benefits li {
+    margin: 10px 0;
+}
+
+.contact {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact label {
+    margin-top: 10px;
+}
+
+.contact input, .contact textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (min-width: 768px) {
+    .services {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .services .service-item {
+        flex: 1;
+        margin: 0 10px;
+    }
+}
+
+
+
